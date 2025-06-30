@@ -1,0 +1,9 @@
+<div class="peliculas-container">
+  <div class="pelicula-item" *ngFor="let pelicula of peliculas" (click)="verDetalle(pelicula.id)">
+    <ion-card>
+      <img class="poster" [src]="pelicula.poster_path | imagen">
+    </ion-card>
+  </div>
+</div>
+
+<button (click)="desplazarIzquierda()"></button>

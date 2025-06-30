@@ -1,0 +1,42 @@
+.poster-detalle-sobre{
+  position: relative;
+  top: -75px;
+  left: -10px;
+  margin-bottom: -75px;
+}
+
+.titulo{
+  width: 100%;
+  position: absolute;
+  color: white;
+  background: linear-gradient(to bottom, black, transparent);
+  padding: 5px 5px 40px 5px;
+}
+
+.titulo h1{
+  position: absolute;
+  top: 28px;
+  left: 5px;
+}
+
+.card-actor{
+  height: 240px;
+}
+
+.actor-name{
+  position: relative;
+  top: 15px;
+}
+
+.actores-container {
+  display: flex;
+  overflow-x: auto;  /* Permite el desplazamiento horizontal */
+  gap: 15px;  /* Espaciado entre los elementos */
+  scroll-behavior: smooth;  /* Desplazamiento suave */
+}
+
+.actor-item {
+  flex-shrink: 0;
+  width: 140px;  /* Ajusta el tamaño de cada card del actor */
+}
+

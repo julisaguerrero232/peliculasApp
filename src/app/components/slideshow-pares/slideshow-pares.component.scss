@@ -1,0 +1,25 @@
+.peliculas-container {
+  display: flex;
+  overflow-x: auto;  /* Permite el desplazamiento horizontal */
+  gap: 15px;  /* Espaciado entre los elementos */
+  scroll-behavior: smooth;  /* Desplazamiento suave */
+}
+
+.pelicula-item {
+  flex-shrink: 0;
+  width: 250px;  /* Ajusta el tamaño de los posters */
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+}
+
+.slide-mas {
+  height: 300px;
+}
+
+.btn-mas {
+  position: relative;
+  top: 13%;
+}

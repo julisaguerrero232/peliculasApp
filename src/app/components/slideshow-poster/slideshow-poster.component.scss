@@ -1,0 +1,16 @@
+.peliculas-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  scroll-behavior: smooth;
+}
+
+.pelicula-item {
+  flex-shrink: 0;
+  width: 250px;  /* Ajusta el tamaño de los posters según lo necesites */
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+}

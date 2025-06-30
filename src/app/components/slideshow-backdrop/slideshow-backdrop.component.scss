@@ -1,0 +1,11 @@
+.peliculas-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+}
+
+.pelicula-item {
+  flex-shrink: 0;
+  width: 250px;
+}
