@@ -15,7 +15,7 @@ Instrucciones para la instalación y ejecución
 clonar el proyecto desde rama única
 Node.js instalado
 Ionic CLI instalado globalmente
-git clone https://github.com/tu-usuario/biblioteca-peliculas.git
+git clone https://github.com/julisaguerrero232/peliculasApp/tree/master
 cd biblioteca-peliculas
 npm install
 ionic serve
